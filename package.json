@@ -1,6 +1,6 @@
 {
   "name": "tauri-bootstrap",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "description": "This project serves as a comprehensive scaffolding tool designed to streamline the setup of new applications using the Tauri framework, coupled with engineering best practices.",
   "homepage": "https://github.com/ArcMichael/tauri-bootstrap#readme",
