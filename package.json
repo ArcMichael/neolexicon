@@ -1,15 +1,15 @@
 {
-  "name": "cadre",
+  "name": "tauri-bootstrap",
   "version": "0.0.1",
   "private": true,
   "description": "A cadre",
-  "homepage": "https://github.com/ArcMichael/cadre#readme",
+  "homepage": "https://github.com/ArcMichael/tauri-bootstrap#readme",
   "bugs": {
-    "url": "https://github.com/ArcMichael/cadre/issues"
+    "url": "https://github.com/ArcMichael/tauri-bootstrap/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArcMichael/cadre.git"
+    "url": "https://github.com/ArcMichael/tauri-bootstrap.git"
   },
   "license": "BSD-2-Clause",
   "author": "ArcMichael <hulen20@gmail.com>",
