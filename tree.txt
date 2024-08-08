@@ -1,0 +1,78 @@
+/Users/michaelqiu/Documents/workspace/cadre
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── auto-increment-rust-version.cjs
+├── cleanup-local-branches.sh
+├── commitlint.config.mjs
+├── index.html
+├── jest.config.json
+├── jest.setup.ts
+├── package.json
+├── pnpm-lock.yaml
+├── public
+|  ├── tauri.svg
+|  └── vite.svg
+├── src
+|  ├── App.css
+|  ├── App.tsx
+|  ├── __tests__
+|  |  └── App.test.tsx
+|  ├── assets
+|  |  └── react.svg
+|  ├── constants.ts
+|  ├── interfaces.ts
+|  ├── main.tsx
+|  ├── setupTests.ts
+|  └── vite-env.d.ts
+├── src-tauri
+|  ├── Cargo.lock
+|  ├── Cargo.toml
+|  ├── build.rs
+|  ├── capabilities
+|  |  └── default.json
+|  ├── gen
+|  |  └── schemas
+|  |     ├── acl-manifests.json
+|  |     ├── capabilities.json
+|  |     ├── desktop-schema.json
+|  |     └── macOS-schema.json
+|  ├── icons
+|  |  ├── 128x128.png
+|  |  ├── 128x128@2x.png
+|  |  ├── 32x32.png
+|  |  ├── Square107x107Logo.png
+|  |  ├── Square142x142Logo.png
+|  |  ├── Square150x150Logo.png
+|  |  ├── Square284x284Logo.png
+|  |  ├── Square30x30Logo.png
+|  |  ├── Square310x310Logo.png
+|  |  ├── Square44x44Logo.png
+|  |  ├── Square71x71Logo.png
+|  |  ├── Square89x89Logo.png
+|  |  ├── StoreLogo.png
+|  |  ├── icon.icns
+|  |  ├── icon.ico
+|  |  └── icon.png
+|  ├── src
+|  |  ├── lib.rs
+|  |  └── main.rs
+|  ├── target
+|  |  ├── CACHEDIR.TAG
+|  |  └── debug
+|  |     ├── build
+|  |     ├── deps
+|  |     ├── examples
+|  |     └── incremental
+|  └── tauri.conf.json
+├── test
+|  └── __mocks__
+|     └── fileMock.js
+├── tree.txt
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+directory: 31 file: 55 symboliclink: 89
+
+ignored: directory (1)
