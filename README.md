@@ -46,12 +46,23 @@ Follow these steps to push your local code to a remote GitHub repository:
 
 5. **Push your local changes to the remote repository:**
 
+
     ```bash
-    git push new-origin main ✅
+    git push -u origin main
     ```
 
-    If your default branch is not main, replace main with your branch name (e.g., master).
+   If your default branch is not main, replace main with your branch name (e.g., master).
+   
+6. **Be cautious with this step as it will overwrite the remote repository's history**:
 
-6. **Verify the Push**
+    If you need to force push to the remote repository (overwriting its history), use the following command. 
+
+    ```bash
+    git push new-origin main -f 
+    ```
+
+    
+
+7. **Verify the Push**
 
     Go to your GitHub repository in the browser and verify that your code has been successfully pushed.
