@@ -1,3 +1,5 @@
+// src/route/routes.tsx
+
 import React, { Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import routeConfig, { RouteConfig } from './route-config';
@@ -15,7 +17,7 @@ const renderRoutes = (routes: RouteConfig[]) =>
 const AppRoutes: React.FC = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <Routes>{renderRoutes(routeConfig)}</Routes>
+      <Routes data-testid='routes-element'>{renderRoutes(routeConfig)}</Routes>
     </Suspense>
   );
 };

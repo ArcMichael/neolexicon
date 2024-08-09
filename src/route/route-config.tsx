@@ -1,3 +1,5 @@
+// src/route/route-config.tsx
+
 import { UploadOutlined, UserOutlined } from '@ant-design/icons';
 
 export interface RouteConfig {

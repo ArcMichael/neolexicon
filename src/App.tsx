@@ -4,7 +4,7 @@ import Routes from './route/routes';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App' data-testid='routes-element'>
       <BrowserRouter>
         <Routes />
       </BrowserRouter>
