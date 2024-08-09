@@ -1,15 +1,15 @@
 {
-  "name": "tauri-bootstrap",
+  "name": "neolexicon",
   "version": "0.1.0",
   "private": true,
   "description": "This project serves as a comprehensive scaffolding tool designed to streamline the setup of new applications using the Tauri framework, coupled with engineering best practices.",
-  "homepage": "https://github.com/ArcMichael/tauri-bootstrap#readme",
+  "homepage": "https://github.com/ArcMichael/neolexicon#readme",
   "bugs": {
-    "url": "https://github.com/ArcMichael/tauri-bootstrap/issues"
+    "url": "https://github.com/ArcMichael/neolexicon/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArcMichael/tauri-bootstrap.git"
+    "url": "https://github.com/ArcMichael/neolexicon.git"
   },
   "license": "BSD-2-Clause",
   "author": "ArcMichael <hulen20@gmail.com>",
