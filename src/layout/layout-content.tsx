@@ -1,13 +1,18 @@
 import { Layout, theme } from 'antd';
 import React, { ReactNode } from 'react';
+import Breadcrumbs from '../component/bread-crumbs';
 
 const { Content } = Layout;
 
 interface LayoutContentProps {
   children: ReactNode;
+  showBreadcrumbs?: boolean;
 }
 
-const LayoutContent: React.FC<LayoutContentProps> = ({ children }) => {
+const LayoutContent: React.FC<LayoutContentProps> = ({
+  children,
+  showBreadcrumbs = true,
+}) => {
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
@@ -22,6 +27,7 @@ const LayoutContent: React.FC<LayoutContentProps> = ({ children }) => {
         borderRadius: borderRadiusLG,
       }}
     >
+      {showBreadcrumbs && <Breadcrumbs />}
       {children}
     </Content>
   );

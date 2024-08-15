@@ -1,6 +1,13 @@
 // src/route/route-config.tsx
 
-import { UploadOutlined, UserOutlined } from '@ant-design/icons';
+import {
+  BarsOutlined,
+  QuestionCircleOutlined,
+  RadarChartOutlined,
+  SettingOutlined,
+  UploadOutlined,
+  UserOutlined,
+} from '@ant-design/icons';
 import { lazy } from 'react';
 
 const PrivateRoute = lazy(() => import('../route/private-route'));
@@ -43,21 +50,21 @@ const routes: RouteConfig[] = [
     path: '/settings',
     element: <SettingsPage />,
     title: 'settings',
-    icon: <UploadOutlined />,
+    icon: <SettingOutlined />,
     showInSider: true,
   },
   {
     path: '/main',
     element: <MainPage />,
     title: 'd3',
-    icon: <UploadOutlined />,
+    icon: <RadarChartOutlined />,
     showInSider: true,
   },
   {
     path: '/list',
     element: <ListPage />,
     title: 'list',
-    icon: <UploadOutlined />,
+    icon: <BarsOutlined />,
     showInSider: true,
   },
   {
@@ -71,7 +78,7 @@ const routes: RouteConfig[] = [
     path: '/help',
     element: <HelpPage />,
     title: 'help',
-    icon: <UploadOutlined />,
+    icon: <QuestionCircleOutlined />,
     showInSider: true,
   },
   {

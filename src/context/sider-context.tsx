@@ -84,6 +84,7 @@ export const SiderProvider = ({ children }: { children: ReactNode }) => {
         setOpenKeysState(parsedOpenKeys);
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // 仅在组件挂载时运行一次
 
   return (
