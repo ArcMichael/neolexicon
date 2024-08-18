@@ -3,15 +3,18 @@ import './App.css';
 import Routes from './route/routes';
 import { SiderProvider } from './context/sider-context';
 import { AccountProvider } from './context/account-context';
+import { TokenProvider } from './context/token-context';
 
 function App() {
   return (
     <div className='App' data-testid='routes-element'>
       <BrowserRouter>
         <AccountProvider>
-          <SiderProvider>
-            <Routes />
-          </SiderProvider>
+          <TokenProvider>
+            <SiderProvider>
+              <Routes />
+            </SiderProvider>
+          </TokenProvider>
         </AccountProvider>
       </BrowserRouter>
     </div>
